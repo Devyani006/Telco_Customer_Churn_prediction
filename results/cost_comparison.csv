@@ -1,0 +1,7 @@
+,Total cost on test set (r = 5),Cost per customer
+Contact nobody (predict all 'Stayed'),1870,1.327182398864443
+Contact everybody,1035,0.7345635202271115
+"Model, threshold 0.7",1546,1.0972320794889994
+"Model, threshold 0.5",978,0.6941092973740242
+"Model, threshold 0.3",740,0.525195173882186
+"Model, recommended threshold 0.16",598,0.42441447835344215

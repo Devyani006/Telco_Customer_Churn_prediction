@@ -1,0 +1,7 @@
+Metric,Formula,What it tells the user,Your test-set result
+Accuracy,(TP + TN) / (TP + TN + FP + FN),Share of all predictions that are correct; misleading when classes are imbalanced.,0.794180269694819
+Precision,TP / (TP + FP),"Of the customers flagged as churn, how many really churn.",0.63125
+Recall (sensitivity),TP / (TP + FN),"Of the customers who really churn, how many the model found.",0.5401069518716578
+Specificity,TN / (TN + FP),"Of the customers who really stay, how many the model correctly cleared.",0.8859903381642512
+F1-score,2 × (Precision × Recall) / (Precision + Recall),Single score balancing precision and recall.,0.5821325648414986
+ROC-AUC,Area under the ROC curve,"Ability to rank churners above stayers across all thresholds (0.5 = chance, 1.0 = perfect).",0.8380841664729132
