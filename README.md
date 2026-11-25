@@ -111,4 +111,4 @@ Tested with Python 3.12, scikit-learn 1.9, pandas 3.0. Fixed random seed 42.
 
 
 ## Author
-Built by Devyani Dhokrat((https://github.com/Devyani006).
+Built by @Devyani Dhokrat(https://github.com/Devyani006).
