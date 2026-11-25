@@ -109,7 +109,16 @@ Tested with Python 3.12, scikit-learn 1.9, pandas 3.0. Fixed random seed 42.
 └── requirements.txt
 ```
 
+## Limitations and responsible use
+This should rank customers for a human-run retention programme. It must not be used to deny service or set prices for an individual. A probability is an estimate, not a promise. The data is a single snapshot, and included features such as payment method may still act as indirect proxies for protected traits, so error rates should be audited across customer groups before real use.
 
-## Author and Acknowlegement
-Built by @Devyani Dhokrat(https://github.com/Devyani006).
-Acknowlegement to :[https://github.com/complexiota](https://github.com/complexiota)
+## Roadmap
+- [ ] Class-weighted logistic regression, tuned regularisation, interaction terms
+- [ ] Compare with KNN, SVM, random forest and gradient boosting
+- [ ] Replace the assumed cost ratio with real offer cost and lifetime value
+- [ ] SHAP explanations and per-customer reason codes
+- [ ] Fairness audit across customer groups
+- [ ] Streamlit or FastAPI scoring app
+
+## Author
+Built by [@complexiota](https://github.com/complexiota).
