@@ -110,5 +110,6 @@ Tested with Python 3.12, scikit-learn 1.9, pandas 3.0. Fixed random seed 42.
 ```
 
 
-## Author
+## Author and Acknowlegement
 Built by @Devyani Dhokrat(https://github.com/Devyani006).
+Acknowlegement to :[https://github.com/complexiota](https://github.com/complexiota)
